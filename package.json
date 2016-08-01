@@ -1,10 +1,9 @@
 {
   "name": "react-demo",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node_modules/.bin/babel-node tools/srcServer.js",
+    "start": "babel-node tools/srcServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,7 +20,7 @@
     "classnames": "^2.2.5",
     "classnames-loader": "^2.0.0",
     "css-loader": "^0.23.1",
-    "eslint": "^3.1.1",
+    "eslint": "^3.2.0",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.12.0",
     "eslint-plugin-jsx-a11y": "^2.0.1",
@@ -56,5 +55,14 @@
     "react-dom": "^15.2.1",
     "react-router": "^2.6.0",
     "uuid": "^2.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliothimmelfarb/react-property-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elliothimmelfarb/react-property-manager/issues"
+  },
+  "homepage": "https://github.com/elliothimmelfarb/react-property-manager#readme",
+  "description": ""
 }
